@@ -38,6 +38,7 @@
     float: right;
     display: block;
     z-index: 99;
+    height: 100vh;
 }
 .profiles .profiles-img{
 	float: right;
