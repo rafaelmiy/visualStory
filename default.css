@@ -1,0 +1,28 @@
+.cover{
+	background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+	height: 100vh;
+	padding: 40px;
+	text-transform: uppercase;
+}
+.cover img:nth-child(1){
+	height: 90vh;
+	position: absolute;
+}
+.cover .bg-purple{
+	background: #5825c2;
+}
+.cover .bg-purple span{
+	color: #fed832;
+}
+.cover h2{
+	font-size: 35px;
+    top: 70vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+	font-weight: 100;
+}
