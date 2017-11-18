@@ -26,3 +26,35 @@
     color: #fff;
 	font-weight: 100;
 }
+.profiles{
+	background-image: url('images/bg2.png');
+    background-position: top;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.profiles .glitch{
+    position: relative;
+    float: right;
+    display: block;
+    z-index: 99;
+}
+.profiles .profiles-img{
+	float: right;
+	position: relative;
+    height: 85vh;
+    margin-right: -100px;
+    margin-top: 5%;
+}
+.profiles h5{
+	width: 40%;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 25vh;
+	background: #fff;
+	border: 8px solid #ff005e;
+	border-right: 35px solid #ff005e;
+	z-index: 99;
+}
