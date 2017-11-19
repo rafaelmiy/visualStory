@@ -59,9 +59,16 @@
 	border-right: 35px solid #ff005e;
 	z-index: 99;
 }
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.inside{
+	height: 100vh;
+}
 .first{
 	position: relative;
-	height: 100vh;
 	display: block;
 	background-image: url('images/1_bg.png');
     background-repeat: no-repeat;
@@ -99,7 +106,6 @@
     height: 90vh;
 }
 .second{
-	height: 100vh;
 	background-image: url('images/2_bg.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,10 +182,75 @@
 	background-image: url('images/3_text3.png');
 	background-attachment: fixed;
 }
-
-
-
-
+.fourth{
+	background-image: url('images/4_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fourth .text{
+	width: 50%;
+	float: left;
+}
+.fourth .text img{
+    height: 100vh;
+}
+.fourth .video{
+	height: 100vh;
+	background: #fff;
+	width: 50%;
+	float: right;
+	padding-top: 2%;
+	padding-right: 10%;
+}
+.fourth .video video{
+	background: #000;
+}
+.fourth .video h5{
+	font-weight: 200;
+	color: #0e4ef4;
+	font-size: 18px;
+}
+.fifth{
+	background: #ea294c;
+}
+.fifth .inside{
+	background-image: url('images/5_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+.fifth .inside .text,
+.fifth .inside .video{
+	width: 50%;
+}
+.fifth .inside .text{
+	float: left;
+	padding: 10% 6% 0 2%;
+}
+.fifth .inside .video{
+	float: right;
+}
+.fifth .inside .text h5{
+	background: #23cdd7;
+	line-height: 25px;
+	width: 80%;
+	padding: 5px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #ea294c;
+}
+.fifth .inside .video{
+	position: relative;
+	height: 100vh;
+}
+.fifth .inside .video video{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    background: #000;
+}
 
 
 
