@@ -98,9 +98,81 @@
     font-weight: 200;
     height: 90vh;
 }
-
-
-
+.second{
+	height: 100vh;
+	background-image: url('images/2_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-attachment: fixed;
+}
+.second .number{
+	width: 45%;
+    height: 100vh;
+    float: left;
+}
+.second .number img{
+	height: 100vh;
+}
+.second .text-video video{
+	background: #000;
+}
+.second .text-video{
+	width: 55%;
+	padding: 5% 10% 0;
+    background: #a269f7;
+    height: 100vh;
+    float: right;
+}
+.second .text-video h5{
+	background: #fff;
+	padding: 10px 5px;
+	font-weight: 200;
+	font-size: 17px;
+}
+.third .video{
+	height: 100vh;
+	width: 50%;
+	float: left;
+	background-image: url('images/3_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+.third .video video{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin-left: 5%;
+    background: #000;
+}
+.third .text{
+	height: 100vh;
+	width: 50%;
+	float: right;
+	background-image: url('images/3_bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    z-index: -1;
+    padding: 8% 2%;
+}
+.third .text h5{
+	padding: 20px;
+	color: #f8cc59;
+	font-weight: 200;
+	font-size: 18px;
+}
+.third .text h5:nth-child(1){
+	background-image: url('images/3_text1.png');
+}
+.third .text h5:nth-child(4){
+	background-image: url('images/3_text2.png');
+}
+.third .text h5:nth-child(7){
+	background-image: url('images/3_text3.png');
+}
 
 
 
