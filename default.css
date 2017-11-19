@@ -59,3 +59,56 @@
 	border-right: 35px solid #ff005e;
 	z-index: 99;
 }
+.first{
+	position: relative;
+	height: 100vh;
+	display: block;
+	background-image: url('images/1_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.first .video{
+	width: 50%;
+	height: 100vh;
+	float: left;
+}
+.first .video video{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin-left: 5%;
+    background: #000;
+}
+.first .text{
+	width: 50%;
+	float: right;
+    background: #f95f43;
+}
+.first .text h5{
+	width: 70%;
+	margin-top: 0;
+	padding: 20% 30px;
+	background-image: url('images/1_bg_text.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: #dd6954;
+    font-size: 16px;
+    font-weight: 200;
+    height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
