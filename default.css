@@ -1,3 +1,10 @@
+@font-face{
+	font-family: chaparralregular;
+	src: url("fonts/ChaparralPro-Regular.otf") format("opentype");
+}
+h5{
+	font-family: chaparralregular;
+}
 .cover{
 	background-image: url('images/background.png');
     background-repeat: no-repeat;
