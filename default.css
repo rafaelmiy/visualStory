@@ -5,6 +5,11 @@
 h5{
 	font-family: chaparralregular;
 }
+#cover canvas{
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+}
 .cover{
 	background-image: url('images/background.png');
     background-repeat: no-repeat;
